@@ -6,15 +6,18 @@
   "author": "Daine Mawer <hello@dainemawer.com>",
   "license": "MIT",
   "dependencies": {
+    "babel-plugin-styled-components": "^1.10.6",
     "gatsby": "^2.17.5",
     "gatsby-plugin-manifest": "^2.2.24",
     "gatsby-plugin-react-helmet": "^3.1.13",
+    "gatsby-plugin-styled-components": "^3.1.11",
     "gatsby-plugin-typography": "^2.3.15",
     "prop-types": "^15.7.2",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-helmet": "^5.2.1",
     "react-typography": "^0.16.19",
+    "styled-components": "^4.4.0",
     "typography": "^0.16.19",
     "typography-theme-kirkham": "^0.16.19"
   },
