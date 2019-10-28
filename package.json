@@ -1,0 +1,31 @@
+{
+  "name": "mandoestravel",
+  "description": "A Gatsby Travel Blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Daine Mawer <hello@dainemawer.com>",
+  "license": "MIT",
+  "dependencies": {
+    "gatsby": "^2.17.5",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
+  },
+  "bugs": {
+    "url": "https://github.com/dainemawer/mandoestravel/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dainemawer/mandoestravel.git"
+  },
+  "private": true,
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  },
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve"
+  }
+}
