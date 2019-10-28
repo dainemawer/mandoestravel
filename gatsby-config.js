@@ -7,7 +7,7 @@ module.exports = {
     plugins: [
         `gatsby-plugin-react-helmet`,
         {
-            resolve: `gatsby-plugin-manifest`,
+          resolve: `gatsby-plugin-manifest`,
             options: {
               name: `man-does-travel`,
               short_name: `man-does-travel`,
@@ -15,7 +15,13 @@ module.exports = {
               background_color: `#663399`,
               theme_color: `#663399`,
               display: `minimal-ui`,
-            },
           },
+        },
+        {
+          resolve: `gatsby-plugin-typography`,
+            options: {
+              pathToConfigModule: `src/utils/typography`,
+            },
+        },
     ]
 }
