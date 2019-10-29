@@ -17,7 +17,7 @@ const Layout = ({ children }) => {
     `)
 
     return (
-        <div style={{ margin: '0 auto', maxWidth: '660px' }}>
+        <div style={{ margin: '0 auto', maxWidth: '700px' }}>
             <Header siteTitle={data.site.siteMetadata.title} />
             <main>{children}</main>
             <Footer />

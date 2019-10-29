@@ -14,10 +14,6 @@ const SiteFooter = styled.footer`
 
 const Colophon = styled.p`
   margin-bottom: 0;
-
-  & a {
-    text-decoration: none;
-  }
 `;
 
 const Navigation = styled.ul`
@@ -31,10 +27,6 @@ const NavItem= styled.li`
   &:last-child {
     margin: 0;
   }
-
-  & a {
-    text-decoration: none;
-  }
 `;
 
 const Footer = () => (
@@ -44,10 +36,16 @@ const Footer = () => (
         </Colophon>
         <Navigation>
           <NavItem>
-            <Link to="/privacy-policy">Privacy Policy</Link>
+            <span role="img" aria-label="Lock">🔒</span>
+            <Link to="/privacy-policy">
+              Privacy Policy
+            </Link>
           </NavItem>
           <NavItem>
-            <Link to="/terms-and-conditions">Terms &amp; Conditions</Link>
+            <span role="img" aria-label="Lock">📋</span>
+            <Link to="/terms-and-conditions">
+              Terms &amp; Conditions
+            </Link>
           </NavItem>
         </Navigation>
     </SiteFooter>
