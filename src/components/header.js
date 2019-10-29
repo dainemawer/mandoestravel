@@ -15,7 +15,7 @@ const SiteLogo = styled.h1`
   margin: 0;
 
   & a {
-    text-decoration: none;
+    border-bottom: 0;
   }
 `;
 
@@ -26,33 +26,33 @@ const Navigation = styled.ul`
 `;
 
 const NavItem= styled.li`
-  margin: 0 1rem 0 0;
+  margin: 0 1.5rem 0 0;
   &:last-child {
     margin: 0;
-  }
-
-  & a {
-    text-decoration: none;
   }
 `;
 
 const Header = ({ siteTitle }) => (
     <SiteHeader>
         <SiteLogo>
-            <span role="img" aria-label="Man">🙋‍♂️</span>{' '}
+            <span role="img" aria-label="Man">🌐</span>{' '}
             <Link to="/">{siteTitle}</Link>
         </SiteLogo>
         <Navigation>
           <NavItem>
+            <span role="img" aria-label="House">🏠</span>{' '}
             <Link to="/">Home</Link>
           </NavItem>
           <NavItem>
+            <span role="img" aria-label="Hand">✋</span>{' '}
             <Link to="/about">About</Link>
           </NavItem>
           <NavItem>
+            <span role="img" aria-label="Typewriter">📇</span>{' '}
             <Link to="/blog">Blog</Link>
           </NavItem>
           <NavItem>
+            <span role="img" aria-label="Mailbox">📫</span>{' '}
             <Link to="/contact">Contact</Link>
           </NavItem>
         </Navigation>
