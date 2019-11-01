@@ -8,8 +8,8 @@ const SiteFooter = styled.footer`
   border-top: 1px solid rgba(0,0,0, 0.25);
   display: flex;
   justify-content: space-between;
-  padding: 1rem 0;
-  margin-top: 2rem;
+  padding: 2rem 0;
+  margin-top: 3rem;
 `;
 
 const Colophon = styled.p`
